@@ -1,0 +1,14 @@
+name: Pipeline Runner
+
+on: [push]
+jobs:
+  cypress-runner:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Pipeline Setup
+      uses: actions/checkout@v4
+
+    - name: Execute Cypress Test
+      uses: cypress-io/github-action@v6
