@@ -1,14 +1,19 @@
-name: Pipeline Runner
+name: Cypress Tests
 
-on: [push]
+on: [push, pull_request]
+
 jobs:
-  cypress-runner:
-
+  cypress-run:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Pipeline Setup
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Execute Cypress Test
-      uses: cypress-io/github-action@v6
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v5
+        with:
+          node-version: 16
