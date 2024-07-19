@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CYPRESS_SELENIUM_TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55bc5cef78aa553647a2d79cb7cc9a5385749279")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e4f613e59b8e5ba73017b291d5ae895254a188f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CYPRESS_SELENIUM_TEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CYPRESS_SELENIUM_TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
