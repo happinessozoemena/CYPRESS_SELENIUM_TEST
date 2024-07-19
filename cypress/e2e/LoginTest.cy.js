@@ -6,7 +6,7 @@ describe('Login Functionality', () => {
   
     it('Successful login with valid credentials', () => {
       // Enter valid username
-      cy.get('input[name="uid"]').type('mngr581643'); 
+      cy.get(dd .beforeEach]').type('mngr581643'); 
       // Enter valid password
       cy.get('input[name="password"]').type('YnUvAga');
       // Click on login button
